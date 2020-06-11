@@ -1,14 +1,15 @@
 .side-bar
   .side-bar__user-name
     .name-box
-      .name masa
+      .name
+        = current_user.name
       .menu
         %ul.list
           %li.side-bar__icon
             = link_to '#' do
               = icon('fas', 'edit', class: "icon")
           %li.side-bar__icon
-            = link_to '#' do
+            = link_to edit_user_path(current_user) do
               = icon('fas', 'cog', class: "icon")
   .side-bar__group-list
     .group

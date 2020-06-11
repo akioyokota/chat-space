@@ -29,18 +29,17 @@
         .group-name__menber{
           padding-right: 5px;
           font-size: 13px;
-
-          .chat-edit {
-            display: block;
-            border: 1px solid #38aef0;
-            color: #38aef0;
-            height: 40px;
-            line-height: 40px;
-            margin-top: 28px;
-            padding: 0 20px;
-            text-decoration: none;
-          }
         }
+      }
+      .chat-edit {
+        display: block;
+        border: 1px solid #38aef0;
+        color: #38aef0;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 28px;
+        padding: 0 20px;
+        text-decoration: none;
       }
     }
   }
