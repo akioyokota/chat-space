@@ -1,0 +1,17 @@
+.side-bar
+  .side-bar__user-name
+    .name-box
+      .name masa
+      .menu
+        %ul.list
+          %li.side-bar__icon
+            = link_to '#' do
+              = icon('fas', 'edit', class: "icon")
+          %li.side-bar__icon
+            = link_to '#' do
+              = icon('fas', 'cog', class: "icon")
+  .side-bar__group-list
+    .group
+      %a(href="#")
+        .group__name soccer
+        .group__message まだメッセージはありません。
