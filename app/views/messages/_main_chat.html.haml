@@ -3,10 +3,10 @@
     .chat-group
       .chat-group__name
         = @group.name
-      %ul.group-name__list
+      .group-name__list
         Member：
         - @group.users.each do |user|
-          %li= user.name
+          = user.name
     = link_to edit_group_path(@group) do
       %input{ type: "button", class:"chat-edit", value: "Edit" }
 
