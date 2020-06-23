@@ -10,8 +10,10 @@ $(function() {
                       ${message.created_at}
                       </div>
                     </div>
-                  </div>
                   <div class="messages">
+                    <p class="Message__content">
+                      ${message.content}
+                    </p>
                   </div>
                   <img class="Message__image" src="${message.image}"></img>`;
       return html;
@@ -27,8 +29,9 @@ $(function() {
                      </div>
                     </div>
                       <div class="messages">
-                        <p class="Message__content"></p>
+                        <p class="Message__content">
                           ${message.content}
+                        </p>
                         </div>`;
       return html;
     };
